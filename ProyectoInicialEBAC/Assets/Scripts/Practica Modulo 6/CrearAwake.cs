@@ -38,7 +38,7 @@ public class CrearAwake : MonoBehaviour
         */
         GameObject cuboSpawn = Instantiate<GameObject>(objToSpawn);
 
-        var materialRend = objToSpawn.GetComponent<MeshRenderer>().material;
+        var materialRend = cuboSpawn.GetComponent<MeshRenderer>().material;
         materialRend.color = Color.white;
 
         cuboSpawn.GetComponent<MeshRenderer>().material.color = materialRend.color;

@@ -22,7 +22,7 @@ public class CrearDisAble : MonoBehaviour
 
     GameObject cuboSpawn = Instantiate<GameObject>(objToSpawn);
 
-        var materialRend = objToSpawn.GetComponent<MeshRenderer>().material;
+        var materialRend = cuboSpawn.GetComponent<MeshRenderer>().material;
         materialRend.color = Color.red;
 
         cuboSpawn.GetComponent<MeshRenderer>().material.color = materialRend.color;
@@ -33,7 +33,7 @@ public class CrearDisAble : MonoBehaviour
     private void OnDisable() {
         GameObject cuboSpawn = Instantiate<GameObject>(objToSpawn);
 
-        var materialRend = objToSpawn.GetComponent<MeshRenderer>().material;
+        var materialRend = cuboSpawn.GetComponent<MeshRenderer>().material;
         materialRend.color = Color.blue;
 
         cuboSpawn.GetComponent<MeshRenderer>().material.color = materialRend.color;

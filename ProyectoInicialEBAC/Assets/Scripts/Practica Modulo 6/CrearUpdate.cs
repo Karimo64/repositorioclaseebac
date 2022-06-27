@@ -19,7 +19,7 @@ public class CrearUpdate : MonoBehaviour
     {
         GameObject cuboSpawn = Instantiate<GameObject>(objToSpawn);
 
-        var materialRend = objToSpawn.GetComponent<MeshRenderer>().material;
+        var materialRend = cuboSpawn.GetComponent<MeshRenderer>().material;
         
         Color color = new Color(Random.value,Random.value,Random.value);
         materialRend.color = color;
