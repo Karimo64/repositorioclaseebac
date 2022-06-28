@@ -392,7 +392,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a0c6c7889b67194db691edb2c410c66, type: 3}
   m_Name: 
@@ -409,11 +409,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1270372595}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 24df94ad2535d1249bc86bd34f3ff4d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  variable: 1
   capsule: {fileID: 1270372595}
 --- !u!1 &1272071596
 GameObject:
@@ -617,12 +618,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1586286652}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eacbc93628f5ca94aa39f20df9ade9e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cuby: {fileID: 1586286652}
+  variable: 1
 --- !u!1 &1821364110 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5863661955845219158, guid: 938ed9d4ca658334595a566aecd198e9, type: 3}
@@ -641,6 +643,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sfer: {fileID: 1821364110}
+  variable1: {fileID: 0}
+  variable2: {fileID: 0}
 --- !u!1001 &3318636688339946866
 PrefabInstance:
   m_ObjectHideFlags: 0
