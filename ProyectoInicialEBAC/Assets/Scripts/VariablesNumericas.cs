@@ -50,6 +50,7 @@ public class VariablesNumericas : MonoBehaviour
         // {
         //     Debug.Log("el numero" + miInt + "es non");
         // }
+        //
     }
 
     // Update is called once per frame
