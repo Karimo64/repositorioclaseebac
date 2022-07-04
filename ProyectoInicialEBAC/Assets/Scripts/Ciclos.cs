@@ -23,7 +23,7 @@ public class Ciclos : MonoBehaviour
     //foreach
     //
 
-    int contador = 0; 
+    //int contador = 0; 
     // Start is called before the first frame update
     void Start()
     {
@@ -77,12 +77,12 @@ public class Ciclos : MonoBehaviour
         Debug.Log(miArregloJagged[0][1]);
         for (int x=0 ; x<miArregloJagged.Length;x++)
         {
-            for(int y; y<miArregloJagged[x].Length;y++)
+            for(int y=0; y<miArregloJagged[x].Length;y++)
             {
                 Debug.Log(miArregloJagged[x][y]);
             }
         }
-        bool miBooleano = false; 
+        //bool miBooleano = false; 
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         // for( int i = 0; i < 10; i ++)
